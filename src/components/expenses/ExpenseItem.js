@@ -7,7 +7,7 @@ function ExpenseItem({ title, amount, date }) {
 	const [itemTitle, setItemTitle] = useState(title);
 
 	const clickHandler = () => {
-		itemTitle == title ? setItemTitle("updated") : setItemTitle(title);
+		itemTitle === title ? setItemTitle("updated") : setItemTitle(title);
 	};
 
 	return (
